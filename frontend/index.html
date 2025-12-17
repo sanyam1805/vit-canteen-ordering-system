@@ -1,0 +1,53 @@
+<!--
+VIT Canteen Ordering System - Frontend
+
+This file contains the complete single-page application with:
+- Student Portal (Browse menu, place orders, payment)
+- Staff Dashboard (View and manage orders)
+- Owner Dashboard (Revenue analytics)
+- Complete HTML, CSS, and JavaScript
+
+SOURCE: The complete index.html code (2000+ lines) is documented in:
+https://www.perplexity.ai/search/this-are-some-images-suggestio-.HHvpsE.SKucLBtEYp6HUQ
+
+TO USE:
+1. Copy the entire index.html code from the Perplexity link above
+2. Save it in this frontend/ folder
+3. Configure API_BASE = 'http://localhost:5000/api' to match your backend
+4. Serve this file using: python -m http.server 3000
+5. Open http://localhost:3000 in your browser
+
+KEY FEATURES:
+- Responsive SPA with vanilla JavaScript
+- No external dependencies (except API calls)
+- Student login restricted to @vit.edu emails
+- Staff/Owner login with special passkey: VITCARTCANTEEN
+- Real-time cart management
+- Order status tracking
+- Bill generation
+- Dashboard analytics
+
+API ENDPOINTS USED:
+- POST /api/auth/student/signup
+- POST /api/auth/student/login
+- POST /api/auth/staff/login
+- GET /api/menu
+- POST /api/orders
+- GET /api/orders
+- PATCH /api/orders/:id/status
+- GET /api/owner/summary
+
+STYLES:
+- Custom CSS variables
+- Mobile-responsive grid layout
+- Dark mode ready
+- Component-based styling
+
+JAVASCRIPT:
+- SPA Navigation
+- Cart Management
+- Authentication (JWT)
+- API calls with fetch
+- Form validation
+- Real-time calculations
+-->
