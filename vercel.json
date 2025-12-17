@@ -1,5 +1,6 @@
 {
   "buildCommand": "echo 'No build needed for static frontend'",
+  "outputDirectory": "frontend",
   "cleanUrls": true,
   "rewrites": [
     {
